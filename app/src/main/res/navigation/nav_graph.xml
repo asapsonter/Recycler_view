@@ -9,5 +9,15 @@
         android:id="@+id/mainFragment"
         android:name="com.unittesting.ui.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_sycraDevicesFragment"
+            app:destination="@id/sycraDevicesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sycraDevicesFragment"
+        android:name="com.unittesting.ui.SycraDevicesFragment"
+        android:label="fragment_sycra_devices"
+        tools:layout="@layout/fragment_sycra_devices" />
+
 </navigation>

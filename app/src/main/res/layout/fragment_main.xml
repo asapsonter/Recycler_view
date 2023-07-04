@@ -5,7 +5,7 @@
     android:gravity="center">
 
     <Button
-        android:id="@+id/discover"
+        android:id="@+id/discoverButton"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:padding="10dp"
@@ -16,7 +16,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:padding="10dp"
-        android:layout_below="@id/discover"
+        android:layout_below="@id/discoverButton"
         android:layout_marginTop="100dp"
         android:background="@android:color/holo_blue_light" />
 
